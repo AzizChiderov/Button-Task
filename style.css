@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monserrat';
+}
+
+body {
+    background-color: #2E4158;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: linear-gradient(180deg, #FF8DF4 0%, #9640DA 100%);
+    color: #fff;
+    border: 5px solid #000;
+    width: 431px;
+    height: 155px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    border-radius: 20px;
+    margin: 350px auto;
+    transition: 0.2s;
+}
+
+button:hover {
+    box-shadow: 0px 0px 80px 0px #9640DA;
+}
+button:active {
+    background-color: #715c80;
+    box-shadow: 0px 0px 80px 0px #715c80;
+    text-shadow:  0 0 1px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 11px #715c80, 0 0 20px #715c80, 0 0 30px #715c80,0 0 55px #715c80, 0 0 80px #715c80;
+    transform: scale(0.98);
+}
